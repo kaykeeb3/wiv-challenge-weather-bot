@@ -1,0 +1,10 @@
+### Variáveis
+@baseUrl = http://localhost:3000
+
+### 1. Health Check
+GET {{baseUrl}}/health
+
+###
+### 2. Consulta de Clima (Desafio Aurora)
+# Endpoint otimizado para o Blip
+GET {{baseUrl}}/weather
